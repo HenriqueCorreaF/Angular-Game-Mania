@@ -1,0 +1,126 @@
+
+header {
+    background-color: #176dad;
+    height: 82px;
+    /* width: 1290px; */
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    /* width: 1100px;  */
+    align-items: center ;
+    z-index: 3;
+} 
+
+
+.menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.menu a:hover {
+ color: rgb(236, 185, 0);
+ }
+
+ #barras {
+    display: none;
+ }
+
+.container {
+    /* max-width: 1290px;  */
+    /* era só widht */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto;
+    padding: 0vw; */
+    /* margin: 0% auto 0% auto; */
+    /* flex-direction: column , serve para colocar os itens abaixo do logo
+    (a class = container estava em head e foi movido para div, e class = cabecalho foi
+    removida da div) */
+}
+
+.logo {
+    height: 120px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.loginIcon {
+    height: 60px;
+    width: 60px;
+}
+
+
+@media screen and (max-width:1205px) {
+    .cabecalho {
+        position: relative;
+    }
+  
+    .menu {
+        display: none;
+  
+        position: absolute;
+        top: 80px;
+        right: 0px;
+  
+        height: 400px;
+  
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #176dad;
+        align-items: center;
+  
+    }
+  
+    .menu-ativo {
+      display: flex;
+      align-items: center;
+  
+    }
+  
+     #barras {
+      display: inline-block;
+      
+     }
+
+    }
+
+    @media screen and (max-width: 768px) {
+  
+        .cabecalho {
+            position: relative;
+        }
+      
+        .menu {
+            display: none;
+      
+            position: absolute;
+            top: 80px;
+            right: 0px;
+      
+            height: 400px;
+      
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: #176dad;
+            align-items: center;
+      
+        }
+    
+        header {
+            background-color:#1d80cc;
+        }
+        
+        .logo {
+            width: 200px;
+        }
+
+    }

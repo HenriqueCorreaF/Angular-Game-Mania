@@ -1,0 +1,252 @@
+
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 236, 244);
+}
+
+.container {
+    /* max-width: 1290px;  */
+    /* era só widht */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto;
+    padding: 0vw; */
+    /* margin: 0% auto 0% auto; */
+    /* flex-direction: column , serve para colocar os itens abaixo do logo
+    (a class = container estava em head e foi movido para div, e class = cabecalho foi
+    removida da div) */
+}
+
+.imgbanner {
+    background-image: url(/assets/IMG/bannergodofwarfull.png);
+    background-image: url(/assets/img/bannersetupazulfull.png);
+    background-image: url(/assets/img/bannerclients1full.png);
+    background-image: url(/assets/img/bannergames1full.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 370px;;
+    width: 1290px;
+}
+
+.container-grid {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.itens-banner {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.texto-banner {
+    color: aliceblue;
+    text-transform: uppercase;
+    /* text-align: right; */
+    width: 40%;
+    height: 80%;
+    margin-left: 43%;
+    font-family: "Roboto";
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    float: right; */
+
+}
+
+
+
+.rodape-banner {
+    background-color: #176dad;
+    /* width: 1290px; */
+    height: 40px;
+}
+
+.secao-sobre {
+    background-image: url(/assets/img/fundo-sobre.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-sobre {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 223, 80);
+    text-decoration: dotted;
+}
+
+.texto-sobre h2 {
+    margin-bottom: 2rem;
+}
+
+
+.cards-align {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* position: relative; */
+    justify-content: space-around;
+    
+    
+}
+
+
+@media screen and (max-width:1205px) {
+  
+     .texto-banner h1 {
+      color: aliceblue;
+      text-transform: uppercase;
+      text-align: center;
+      /* width: 40%;
+      height: 80%;
+      margin-left: 40%; */
+      font-family: "Roboto";
+      font-size: 20px;
+      
+     }
+  
+     .texto-banner h2 {
+      color: aliceblue;
+      text-transform: uppercase;
+      text-align: center;
+      /* width: 40%;
+      height: 80%;
+      margin-left: 40%; */
+      font-family: "Roboto";
+      font-size: 20px;
+      
+     }
+  
+     .texto-banner h3 {
+      color: rgb(236, 185, 0);
+      text-transform: uppercase;
+      text-align: center;
+      /* width: 40%;
+      height: 80%;
+      margin-left: 40%; */
+      font-family: "Roboto";
+      font-size: 20px;
+      margin: auto auto ;
+      
+     }  
+  
+     .cards-align {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      /* position: relative; */
+      justify-content: space-around;
+
+     }
+  
+     /* .itens-banner {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+     } */
+  
+  
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+  
+      .texto-banner h1 {
+          color: aliceblue;
+          text-transform: uppercase;
+          text-align: center;
+          /* width: 40%;
+          height: 80%;
+          margin-left: 40%; */
+          font-family: "Roboto";
+          font-size: 15px;
+          
+      }
+      
+         .texto-banner h2 {
+          color: aliceblue;
+          text-transform: uppercase;
+          text-align: center;
+          /* width: 40%;
+          height: 80%;
+          margin-left: 40%; */
+          font-family: "Roboto";
+          font-size: 15px;
+          
+      }
+      
+         .texto-banner h3 {
+          color: rgb(236, 185, 0);
+          text-transform: uppercase;
+          text-align: center;
+          /* width: 40%;
+          height: 80%;
+          margin-left: 40%; */
+          font-family: "Roboto";
+          font-size: 20px;
+          margin: auto auto ;
+          
+      }  
+  
+      .cards-align {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          position: relative;
+         }
+  
+  }
+  
+  @media screen and (max-width: 625px) {
+  
+      .cards-align {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-items: center;
+          position: relative;
+         }
+  
+  }
+  
+  @media screen and (max-width: 1720px) {
+  
+      .cards-align {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          position: relative;
+         }
+  
+  }
+  
+  .cards-align {
+      display: flex;
+      width: 70%;
+      margin: 0 auto;
+  }
+    

@@ -1,0 +1,61 @@
+.footer-container {
+    color: white;
+    /* width: 1290px; */
+    height: 200px;
+    background-color: #176dad;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-footer {
+   display: flex;
+   height: 120px;
+   width: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .logo-footer {
+        display: none;
+    }
+}
+
+  
+.sociais {
+    width: 31%;
+}
+
+.sociais p {
+    font-family: 'Titillium Web';    
+}
+
+.sociais form {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sociais input[type="email"]{
+    height: 37px;
+    width: 65%;  
+    border-radius: 0px; 
+    border-style: none; 
+    text-indent: 5px;
+}
+
+.sociais input[type="email"]::placeholder {
+    color: #B8B3B3;
+    font-weight: bold;
+}
+
+.sociais button{
+    width: 35%;
+    color: white;
+    background-color: rgb(208, 181, 26);
+    border: none;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}

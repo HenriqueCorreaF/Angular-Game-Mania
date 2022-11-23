@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 236, 244);
+}
+
+.container {
+    /* max-width: 1290px;  */
+    /* era só widht */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto;
+    padding: 0vw; */
+    /* margin: 0% auto 0% auto; */
+    /* flex-direction: column , serve para colocar os itens abaixo do logo
+    (a class = container estava em head e foi movido para div, e class = cabecalho foi
+    removida da div) */
+}
+
+
+.containerEmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 10%; 
+    /* margin-bottom: 20px; */
+}
+
+.login label {
+    font-size: 20px;
+    font-family: 'titillium web'
+    /* margin-bottom: 20px; */
+}
+
+.login input{
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    /* border-style: none; */
+    text-indent: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'titillium web';
+    font-weight: 600;
+}
+
+.senha label {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-family: 'titillium web';
+}
+
+.senha input {
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    /* border-style: none; */
+    text-indent: 5px;
+    margin-top: 10px;
+    font-family: 'titillium web';
+    font-weight: 600;
+}
+
+/* .senha input ::placeholder {
+    color: rgb(167, 167, 167);
+    font-weight: bold;
+} */
+
+.sendBotton {
+    height: 60px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(248, 212, 96);
+    font-family: 'titillium web';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
